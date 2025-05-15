@@ -32,7 +32,7 @@ const adicionar = () => {
         <Text style={styles.textoCabecalho}>Seja sócio do colorado!</Text>
       </View>
 
-      <View style={[styles.container, { paddingTop: 90 }]}>
+      <View style={styles.container}>
         <Text style={styles.titulo}>Cadastro</Text>
 
         <CampoTexto
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
 
   textoCabecalho: {
     color: '#FFFFFF',
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: 'bold',
   },
 
@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     padding: 20, 
     backgroundColor: '#FFFFFF', 
     alignItems: 'center',
+    paddingTop: 90
   },
 
   titulo: {

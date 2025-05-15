@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
 
   
   imagem: {
-    width: '40%',
+    width: '30%',
     height: '20%', 
     resizeMode: 'contain'
 
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     },
 
     textocabecalho: {
-      fontSize: 28,
+      fontSize: 20,
       fontWeight: 'bold',
       color: '#FFFFFF',
       textAlign: 'center'
