@@ -41,8 +41,9 @@ const styles = StyleSheet.create({
 
   
   imagem: {
-    width: 200,
-    height: 200, 
+    width: '40%',
+    height: '20%', 
+    resizeMode: 'contain'
 
   },
 
@@ -60,10 +61,10 @@ const styles = StyleSheet.create({
   },
 
    titulo:  {
-    fontSize: 28,
+    fontSize: 20,
     fontWeight: 'bold',
     color: '#D80000',
-    marginBottom: 20,
+    marginBottom: 12,
     textAlign: 'center'
    },
 
