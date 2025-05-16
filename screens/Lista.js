@@ -54,9 +54,9 @@ const styles = StyleSheet.create({
 
   buttonExcluir: {
     backgroundColor: '#D80000',
-    paddingVertical: 8,
-    paddingHorizontal: 16,
-    borderRadius: 80000,
+    paddingVertical: 10,
+    paddingHorizontal: 14,
+    borderRadius: 8000,
   },
 
   buttonText: {
