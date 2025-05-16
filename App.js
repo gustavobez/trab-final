@@ -18,9 +18,9 @@ export default function App() {
     <NomesProvider>
       <NavigationContainer>
         <Stack.Navigator>
+          <Stack.Screen name="Inicio" component={InicioScreen} />
           <Stack.Screen name="Cadastro" component={CadastroScreen} />
           <Stack.Screen name="Lista" component={ListaScreen} />
-          <Stack.Screen name="Inicio" component={InicioScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </NomesProvider>
